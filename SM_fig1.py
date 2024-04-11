@@ -78,6 +78,7 @@ center_subplot_row.text(-1.150, 0.95, "(a)", transform=center_subplot_row.transA
 data = np.linspace(0, 1, 256).reshape(1, -1)
 data = np.vstack((data, data))
 
+
 cbar_ax_position = [right_margin_a+0.005, bottom_margin_a+0.2, 0.02, top_margin_a-bottom_margin_a-0.4]
 ax = fig.add_axes([0, 0, 0.01, 0.01], visible=False)
 cax = ax.imshow(data, cmap=plt.cm.twilight)
