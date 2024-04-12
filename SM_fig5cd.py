@@ -290,4 +290,4 @@ ax2.text(-0.15, 1.02, '(d)', transform=ax2.transAxes, fontsize=fontsize, fontwei
 plt.tight_layout()
 plt.show()
 
-fig.savefig('fig_s5_omega.pdf', dpi=600)
+fig.savefig('SM_fig5cd.pdf', dpi=600)
